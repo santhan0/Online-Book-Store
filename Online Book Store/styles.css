@@ -1,0 +1,204 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgba(117, 201, 121, 0.837);
+    height: 120PX;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.nav{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    text-decoration: none;
+    margin-top: 25px;
+    font-size: 25px;
+    color: black;
+}
+section{
+    display: flex;
+    border-top: 2px solid black;
+}
+#leftsec{
+    width: 20%;
+    background-color: rgba(238, 200, 137, 0.741);
+    height:580PX;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.branch{
+    margin-left: 35px;
+    font-size: 30px;
+    color: rgb(97, 43, 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 100px;
+}
+#rightsec{
+    width: 80%;
+    background-color: rgb(230, 154, 61);
+    height: 580px;
+    display: flex;
+    flex-direction: column;        
+}
+.right{
+    font-family:"Dancing Script";
+    
+}
+.right > img{
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.right > h3{
+    font-size: 35px;
+    padding:10px;
+    color: rgb(26, 24, 168);
+    font-weight: 1000px;
+}
+.right >h1{
+    font-size: 50px;
+    padding: 5px;
+    color: crimson;
+}
+
+
+.login{
+    border: 30px solid black;
+    padding: 60px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 500px;
+width: 400px;
+}
+#head{
+    padding: 10px; 
+    color: rgba(125, 15, 111, 0.752);
+    font-family:"Dancing Script";
+    font-weight:bolder;
+    font-size: 50px;
+}
+#feild3{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.feild{
+    padding: 8px;
+}
+
+.registers{
+    background-color: rgb(203, 232, 243);
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    font-size: large;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#gender{
+    display: inline-block;
+
+}
+#reghead{
+    font-family: "Dancing Script";
+    font-weight: bolds;
+    color: rgb(26, 24, 168);
+    font-size: 60px;
+     padding: 10px;
+      display: flex;
+       justify-content: center;
+}
+.reg{
+    padding: 10px;
+}
+#reg3{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.Catalogue{
+    padding: 50px;
+    background-color: pink;
+}
+
+.cse{
+    background-color: rgb(134, 224, 225);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sci{
+    padding: 10px;
+}
+#head1{
+    font-family:"Dancing Script" ;
+    font-size: 50px;
+    color: darkmagenta;
+padding: 30px;
+}
+.ece{
+    background-color: rgb(240, 136, 190);
+ font-size: 25px;
+ margin-left: 80px;   
+ font-weight: bold;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 60px;
+}
+
+#head2{
+    color: blue; 
+    padding-bottom: 30px; 
+    font-size: 50px;
+    font-family: "Dancing Script";
+}
+
+.eee{
+    font-size: 22px;
+    margin-left: 80px;
+    background-color: rgb(157, 90, 213);
+    font-weight: bold;
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 60px;
+}
+#head3{
+    font-size:50px ; 
+    padding-bottom: 30px; 
+    color: rgb(51, 43, 213);
+    font-family: "Dancing Script";
+}
+
+.mech{
+    margin-left: 80px;
+font-size: 22px;
+font-weight: bold;
+background-color: rgb(235, 212, 82);
+display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding-top: 60px;
+}
+#head4{
+    font-size: 50px;
+    color: darkblue;
+    padding-bottom: 30px;
+   font-family: "Dancing Script";
+}
+tr{
+    text-align: center;
+}
